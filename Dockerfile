@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-EXPOSE 80/tcp
+EXPOSE 5000/tcp
 
 WORKDIR /usr/src/app
 
