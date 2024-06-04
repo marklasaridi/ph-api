@@ -1,5 +1,7 @@
 FROM python:3-alpine
 
+EXPOSE 80/tcp
+
 WORKDIR /usr/src/app
 
 COPY requirements.txt ./
